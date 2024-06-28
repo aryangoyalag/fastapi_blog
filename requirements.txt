@@ -1,6 +1,10 @@
-fastapi==0.68.1
-SQLAlchemy==1.4.22
-python-jose==3.3.0
-passlib==1.7.4
-bcrypt==3.2.0
-alembic==1.13.2
+fastapi
+uvicorn
+gunicorn
+alembic
+python-multipart
+sqlalchemy
+sqlite
+bcrypt
+pydantic
+python-jose
