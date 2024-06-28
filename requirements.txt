@@ -4,7 +4,6 @@ gunicorn
 alembic
 python-multipart
 sqlalchemy
-sqlite
 bcrypt
 pydantic
 python-jose
