@@ -6,7 +6,7 @@ from sqlalchemy import engine_from_config, pool
 from alembic import context
 
 # Use an absolute import
-from blog import models  # Ensure this path is correct based on your project structure
+import models  # Ensure this path is correct based on your project structure
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
