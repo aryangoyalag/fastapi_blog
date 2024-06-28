@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from . import database
-from .routers import blog,user,authentication
+import database
+from routers import blog,user,authentication
 
 app = FastAPI()
 
